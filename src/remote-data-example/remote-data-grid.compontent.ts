@@ -11,8 +11,8 @@ export class RemoteDataGridComponent {
   columns: Column[];
 
   pagination: Pagination = {
-    pageSize: 30,
-    currentPage: 1,
+    pageSize: 10,
+    currentPage: 2,
   };
 
   actionControls: ActionControl[] = [];
